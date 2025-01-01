@@ -1,0 +1,234 @@
+.container{
+   height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.menuItems{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menuItems a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.menuItems button{
+    width: 80px;
+    height: 50%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #453fe1;
+    color: white;
+}
+
+.hero{
+    margin-top: 80px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroInfo{
+    padding: 20px;
+    height: 50%;
+    margin-top: 60px;
+}
+
+.heroInfo h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.hero img{
+    width: 50%;
+    height: 50%;
+}
+
+.aboutWrapper{
+    width: 100%;
+    height: fit-content;
+    padding: 60px;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.aboutItems{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.aboutItem{
+    width: 30%;
+    line-height: 15px;
+}
+
+.aboutItem p{
+    line-height: 20px;
+}
+
+.testimonials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonialsWrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialsHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonialsHeader h2, .testimonialsHeader h3{
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial{
+    width: 350px;
+    height: 250px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonialUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userInfoWrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userInfo{
+    line-height: 5px;
+}
+
+.carouselItem{
+    padding-right: 40px;
+    width: 100%;
+}
+
+.contact{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+}
+
+.hamburger{
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.mobileNav{
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.mobileMenuItems{
+    margin-top: 20px;
+    color: white;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobileMenuItems button{
+    width: 80px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #453fe1;
+    color: white;
+}
+
+.mobileMenuItems a{
+    color: white;
+    text-decoration: none;
+}
+
+.closeMenu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media all and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .aboutWrapper{
+        height: fit-content;
+    }
+
+    .aboutItems{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutItem{
+        width: fit-content;
+        text-align: center;
+    }
+
+    .menuItems{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
