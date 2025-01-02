@@ -1,6 +1,7 @@
 .container{
     height: 100vh;
     width: 100%;
+    background-color: #E1EFF6;
 }
 
 .coursesWrapper{
@@ -19,7 +20,7 @@
 
 .course{
     text-align: center;
-    background-color: black;
+    background-color: #2963ff;
     border-radius: 12px;
     width: 250px;
     height: 200px;

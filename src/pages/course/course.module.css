@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: #E1EFF6;
+    padding: 20px;
 }
 
 .courseWrapper{

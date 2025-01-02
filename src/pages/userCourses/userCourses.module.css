@@ -7,6 +7,7 @@
     padding: 20px;
     width: 100%;
     min-height: 70%;
+    background-color: #E1EFF6;
 }
 
 .courses{
@@ -18,7 +19,7 @@
 }
 
 .course{
-    background-color: black;
+    background-color: #2963ff;
     border-radius: 12px;
     width: 250px;
     height: 200px;

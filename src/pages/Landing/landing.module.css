@@ -1,5 +1,6 @@
 .container{
-   height: 100vh;
+   height: fit-content;
+   background-color: #E1EFF6;
 }
 
 nav{
@@ -9,8 +10,8 @@ nav{
     height: 100px;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .menuItems{
@@ -22,7 +23,8 @@ nav{
 .menuItems a{
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: black;
+    font-weight: 700;
 }
 
 .menuItems button{
@@ -32,7 +34,7 @@ nav{
     border: none;
     padding: 5px;
     cursor: pointer;
-    background-color: #453fe1;
+    background-color: #2963ff;
     color: white;
 }
 
@@ -65,12 +67,13 @@ nav{
     width: 100%;
     height: fit-content;
     padding: 60px;
+    background-color: #E1EFF6;
 }
 .about{
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color: black;
+    background-color: #2963ff;
     color: white;
     border-radius: 8px;
 }
@@ -94,12 +97,14 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #E1EFF6;
 }
 
 .testimonialsWrapper{
     width: 90%;
     display: flex;
     flex-direction: column;
+
 }
 
 .testimonialsHeader{
@@ -118,7 +123,7 @@ nav{
 .testimonial{
     width: 350px;
     height: 250px;
-    background-color: black;
+    background-color: #2963ff;
     border-radius: 12px;
     color: white;
     padding: 10px 20px;
@@ -155,6 +160,7 @@ nav{
     flex-direction: column;
     align-items: center;
     line-height: 10px;
+    background-color: #E1EFF6;
 }
 
 .hamburger{
@@ -189,7 +195,7 @@ nav{
     border: none;
     padding: 5px;
     cursor: pointer;
-    background-color: #453fe1;
+    background-color: #2963ff;
     color: white;
 }
 

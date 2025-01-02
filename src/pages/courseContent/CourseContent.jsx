@@ -6,6 +6,7 @@ import courses from './../../data/courses';
 import Footer from '../../components/footer/Footer';
 import ReactPlayer from 'react-player'
 import UserInformationContext from '../../context/UserInformationContext';
+import ProgressBar from "@ramonak/react-progress-bar";
 
 function CourseContent() {
 
@@ -27,7 +28,7 @@ function CourseContent() {
                 <h2>{courses[courseId].name}</h2>
                 <div className={styles.courseContentInformation}>
                     <ReactPlayer url={courses[courseId].videoURL} className={styles.videoPlayer}/>
-                    <p>loading bar</p>
+                    <ProgressBar completed={50} maxCompleted={100} width='300px' bgColor='#2963ff'/>
                     <button onClick={completeCourse}>{hasCompleted ? "Completed" : "Complete"}</button>
                 </div>
             </div>
